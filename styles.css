@@ -1,0 +1,14 @@
+#team_menu {
+  font-family: Slack-Lato, appleLogo, sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0 1rem;
+  color: #fff;
+  width: 220px;
+  line-height: 72px;
+  background: #4d394b;
+  border-bottom: 1px solid #4d394b;
+  float: left;
+  position: relative;
+  z-index: 50;
+}

@@ -1,0 +1,42 @@
+<div id="menu" class="menu fsfv_open" style="top: 10px; left: 292px; opacity: 1;">
+  <div class="popover_mask"></div>
+  <div class="menu_content">
+    <div id="menu_header">
+      <div class="menu_member_header">
+        <div class="member_details display_flex flex_direction_column align_items_flex_start cropped_preview">
+          <a class="member_preview_link member_image thumb_512"
+             [ngStyle]="{'background-image': getUserAvatarGradient(user.avatarUrl)}"
+          aria-hidden="true"></a>
+
+          <p class="member_timezone_value">
+            <span class="timezone_label" data-member-id="U0TUMNBRQ"><span class="timezone_value">8:44 PM</span> local time</span>
+          </p>
+
+          <div class="member_details_over_image">
+            <div class="member_name_and_presence lato">
+              <a class="member_name internal_im_link" data-qa="member_name">{{user.name}}</a>
+              <span data-member-presence="U0TUMNBRQ" class="presence away member_presence_U0TUMNBRQ" title="away"><i aria-hidden="true" class="ts_icon ts_icon_presence presence_icon"></i></span>
+            </div>
+
+          </div>
+        </div>
+
+        <hr class="member_details_divider">
+      </div>
+    </div>
+    <div id="menu_items_scroller" style="max-height: 446px;">
+      <div class="menu_body"></div>
+
+      <ul id="menu_items" role="menu" no-bootstrap="1">
+
+        <li id="member_profile_item" role="menuitem"><a href="/team/sergey_petrochenko" target="new_1468085323922">View profile</a></li>
+
+        <li id="member_dm_item" role="menuitem"><a href="/messages/@sergey_petrochenko">Direct Messages</a></li>
+
+        <li id="member_files_item" role="menuitem"><a href="/files/sergey_petrochenko" target="new_1468085323922"> View files</a></li>
+        <li id="member_call_item" role="menuitem"><a>Call</a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
